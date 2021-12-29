@@ -36,6 +36,7 @@ public class AuthorInsert {
 			pstmt = conn.prepareStatement(query);
 							
 			//바인딩(순서 주의)
+			//바인딩: 프로그램 구성 요소의 성격을 결정해주는 행위>이 경우에는 데이터(변수) 자료형 결정
 			pstmt.setString(1,"박경리");//첫 번째 ? 자리에 들어올 데이터
 			pstmt.setString(2,"경상남도 통영");//두 번째 ? 자리에 들어올 데이터
 							
